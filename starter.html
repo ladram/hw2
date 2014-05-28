@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chicago Web Site</title>
+
+    <!-- CSS file -->
+    <link href="starter.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+		<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#new_pic1').click(function(){
+       changeImageAndText("img/bean_color.jpg","Business");
+    });
+
+		$('#new_pic2').click(function(){
+       changeImageAndText("img/roof_color.jpg","Culture & Recreation");
+    });
+
+		$('#new_pic3').click(function(){
+       changeImageAndText("img/boat_color.jpg","Environment");
+    });
+		$('#new_pic4').click(function(){
+       changeImageAndText("img/willis_color.jpg","Housing");
+    });
+		$('#new_pic5').click(function(){
+       changeImageAndText("img/hawks1_bw.jpg","Social Services");
+    });
+
+		$('#new_pic6').click(function(){
+       changeImageAndText("img/trump_color.jpg","Civic Services");
+    });
+
+		$('#new_pic7').click(function(){
+       changeImageAndText("img/statestreet.jpg","Education");
+    });
+		$('#new_pic8').click(function(){
+       changeImageAndText("img/trump2.jpg","Health");
+    });
+
+});
+function changeImageAndText(imgName,newText){
+
+$('#marqueeId').css('background-image','url('+imgName+')');
+$(".marquee-overlaya").text(newText);
+}
+
+
+</script>
+
+  </head>
+	
+  <body>
+   
+		<nav class="top-nav">
+		<ul>
+      <li> <a href="http://www.cityofchicago.org/city/en/about.html">About Us</a></li>
+      <li><a href="http://www.cityofchicago.org/city/en/svcs/find.html">Projects</a></li>
+      <li><a class="top-nav-home" href="starter.html">Chicago</a></li>
+		 <li><a href="http://www.cityofchicago.org/city/en/chicagogovt.html">Ventures</a></li>
+		<li><a href="http://www.cityofchicago.org/city/en/progs.html">Contact Us</a></li>
+    </ul>
+		</nav>
+
+
+
+
+<div class= "marquee" id="marqueeId" >
+
+
+	 <div class= "marquee-overlaya" id="marquee-overlayaId">
+    The City
+	 </div>
+
+
+  <div class= "sub-title" id="sub-titleId">
+    of Chicago
+	 </div>
+	 <div class= "divider" id="dividerId">
+    -------
+	 </div>
+
+
+
+
+   <div class= "marquee-overlayb">
+	 <nav class="right-nav">
+	 <ul>
+       <li> <a id="new_pic1" >Business</a></li>
+       <li><a  id="new_pic2" >Culture & Recreation</a></li>
+			 <li><a  id="new_pic3" >Environment</a></li>
+			 <li><a  id="new_pic4" >Housing & Development</a></li>
+			 <li><a  id="new_pic5" >Social Services</a></li>
+			 <li><a  id="new_pic6" >Civic Services</a></li>
+			 <li><a  id="new_pic7" >Education</a></li>
+			 <li><a  id="new_pic8" >Health</a></li>
+
+     </ul>
+	</nav>
+	</div>
+
+	<div class="scroll" >
+	<img src="img/scrollD.png" class="scroll" alt="scrolldd" >
+	</div>
+
+</div>
+
+
+<div class="news">
+
+<div class="news-cols">
+<img src="img/news1.png" alt="News" class="news" >
+<p>5 minutes on Chicago</p>
+<hr>
+<p>This is an article about all that is going on at Chicago libraries that is digital. Come and sign up for free classes. These classes are for beginners looking to catch up on what is hot in the technology world today.</p>
+</div>
+
+<div class="news-cols">
+<img src="img/news2.png" alt="News" class="news" >
+<p>June 21st</p>
+<hr>
+<p>Come and join the Chicago travelers club.  This summer the club will be going to Washington DC. There will be plenty to see as you will be on a guided tour of the city.</p>
+</div>
+
+<div class="news-cols">
+<img src="img/news3.png" alt="News" class="news" >
+<p>Jan 1, 2014</p>
+<hr>
+<p>This is news article about health care revisions at Chicago hospitals. As of the first of the year, there are many changes that will help those in need of additional health care.</p>
+</div>
+
+<div class="news-cols">
+<img src="img/news4.png" alt="News" class="news" >
+<p>May 1st, 2014</p>
+<hr>
+<p>There is a new computing consulting company in town. The company is called ChiTown-Tech.  Positions are available for those who have the desired skill set.  Send your resume to Apply@ChiTown.org is you have HTML 5/CSS, jQuery, JSF 2.x and Spring 3.x knowledge</p>
+</div>
+
+<div class="news-cols">
+<img src="img/news5.png" alt="News" class="news" >
+<p>Fall 2015</p>
+<hr>
+<p>A new division of BMW will open there doors next fall.  Yes the American version of the well known BMW will now be built in Chicago.  This is excitng news for the city and will provide many job opportunities. </p>
+</div>
+
+<div class="news-cols">
+<video width="320" height="240" controls class="video">
+  <source src="img/21Guns.mp4" type="video/mp4">
+  <source src="img/21Guns.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+<p>Summer of 2014</p>
+<hr>
+<p>This is a local Chicago high school band practice, playing the music they like using the instruments they learned how to play at school. Feel free to come and see them perform at many chicago land parks this summer.</p>
+</div>
+</div>
+
+    
+	
+  </body>
+</html>

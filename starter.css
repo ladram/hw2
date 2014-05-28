@@ -1,0 +1,220 @@
+/*
+ *  Base structure
+ */
+
+
+html,
+body {
+  height: 100%;
+ 
+}
+body {
+   text-align: center;
+	 background-color: black;
+  
+}
+/* Links */
+
+a:hover {
+  color:red;
+  border-bottom: 1px solid red;
+}
+a {
+  color:   #C0C0C0;
+	font-weight:bold;
+}
+	
+
+
+/* Top Navigation */
+
+.top-nav {
+	background-color: #000;
+	position: fixed;
+	border-radius: 4px;
+	display: block;
+	margin: 0px 0px 8px -8px;
+	overflow: hidden;
+	width: 100%; 
+	z-index: 1000;
+	opacity:0.6;
+}
+
+.top-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.top-nav ul li {
+		display: inline-block;
+		list-style-type: none;
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 24px; 
+		
+	}
+
+
+.top-nav > ul > li > a.top-nav-home {
+color:red;
+
+}	
+.top-nav > ul > li > a {
+			display: block;
+			font-weight: bold;
+			line-height: 56px;
+			padding: 0 24px;
+			text-decoration: none;
+			
+		}
+
+
+.right-nav a:hover {
+  color:white;
+	font-weight:bold;
+  border-bottom: 0px solid transparent;
+}
+.right-nav a {
+  
+}
+	
+.right-nav a:hover:after {
+  content:"-";
+	color:red;
+}			
+	
+/* Right Navigation */	
+	.right-nav ul li {
+		list-style-type: none;
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 24px;
+		text-align: left; 
+			
+	}
+.right-nav > ul > li > a {
+                        
+			display: block;
+			line-height: 36px;
+			padding: 0 12px;
+			font-weight:bold;
+			text-decoration: none;
+		}
+		
+div.marquee {
+	
+	border: 1px solid white;
+	background-image:url('img/downtown.jpg');
+	background-color: black;
+        width:100%; 
+        height:100%;
+	background-size: 100%;
+	 
+        background-repeat:no-repeat;
+	 position:relative;
+       margin-top:0px;
+       margin-bottom:0px;
+       margin-right:0px;
+       margin-left:0px;
+       padding:0; /*if your want to padding */
+}
+
+div.marquee-overlaya{
+float:left;
+text-align:left;
+font-family: 'Rock Salt', cursive;
+font-size: 28px; 
+color:white;
+margin-top:200px;
+margin-bottom:0px;
+margin-right:0px;
+margin-left:15px;
+border-radius: 4px;	
+width:35%;
+height:7%;
+
+}
+div.sub-title{
+text-align:left;
+font-family: 'Rock Salt', cursive;
+font-size: 26px; 
+color:white;
+margin-top:200px;
+margin-bottom:0px;
+margin-right:0px;
+margin-left:15px;
+border-radius: 4px;	
+width:35%;
+height:3%;
+}
+
+div.divider{
+font-family: 'Rock Salt', cursive;
+text-align:left;
+font-size: 20px; 
+color:red;
+margin-top:90px;
+margin-bottom:0px;
+margin-right:0px;
+margin-left:15px;
+border-radius: 4px;	
+width:35%;
+height:3%;
+}
+
+div.marquee-overlayb{
+float:right;
+text-align:left;
+margin-top:-100px;
+margin-bottom:0px;
+margin-right:20px;
+margin-left:0px;
+height:40%;
+width:25%;
+}
+
+div.scroll{
+margin-top:22px;
+margin-top: -150px;
+margin-bottom:0px;
+margin-right:0px;
+margin-left:0px;
+width:90%;
+height:10%;
+background-repeat:no-repeat;
+position: absolute; 
+bottom: 0px;
+
+}
+
+img.scroll{
+height:80px; 
+width:80px;
+}
+
+/* News Columns*/	
+
+div.news-cols p {
+	padding: 0 .5em;
+}
+
+div.news-cols{
+
+color:black;
+text-align:left;
+width:32%;
+overflow: hidden;
+display: inline-block;
+vertical-align: top;
+background-color: white;
+min-height: 450px;
+margin-bottom: 5px;
+}
+div.news{
+}
+
+img.news{
+height:100%; 
+width:100%;
+}
+.video {
+margin: 20px;
+}
