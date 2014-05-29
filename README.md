@@ -1,6 +1,6 @@
 hw2
 ===
-This is a website for my homework class. 
+This is a website for my homework class.  Using Github
 
 
 
